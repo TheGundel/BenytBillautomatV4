@@ -115,10 +115,11 @@ public class Billetautomat {
 			System.out.println("Afvist - log ind først");
 		}
 	}
-
+	//Sætter nu billetpris tilbage til 10kr
 	public void nulstil() {
 		if (montørtilstand) {
 			antalBilletterSolgt = 0;
+			billetpris = 10;
 		} else {
 			System.out.println("Afvist - log ind først");
 		}
